@@ -1,0 +1,42 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>label</key>
+        <string>com.adam.remoteRunSpsToHpss</string>
+
+	<key>EnvironmentVariables</key>
+	<dict>
+	  <key>KDATA_ROOT</key>
+	  <string>/Users/adam/softwareDev/kdata501</string>
+	  <key>PYTHONPATH</key>
+	  <string>/Users/adam/softwareDev/root/v5.34.02/lib:/Users/adam/softwareDev/kdata501/lib</string>
+	  <key>ROOTSYS</key>
+	  <string>/Users/adam/softwareDev/root/v5.34.02</string>
+	  <key>DYLD_LIBRARY_PATH</key>
+	  <string>/Users/adam/softwareDev/kdata501/lib:/Users/adam/softwareDev/root/v5.34.02/lib</string>
+	</dict>
+
+	<key>Program</key>
+        <array>
+                <string>/Users/adam/Scripts/remoteRunSpsToHpss/run.py</string>
+	</array>
+	
+	<key>ProgramArguments</key>
+        <array>
+                <string>/Users/adam/Scripts/remoteRunSpsToHpss/run.py</string>
+	</array>
+
+	<key>StandardOutPath</key>
+	<string>/Users/adam/Scripts/remoteRunSpsToHpss/stdOut.log</string>
+	
+	<key>StandardErrorPath</key>
+	<string>/Users/adam/Scripts/remoteRunSpsToHpss/stdErr.log</string>
+	
+	<key>UserName</key>
+	<string>adam</string>
+
+	<key>StartInterval</key>
+	<integer>604800</integer>
+
+</dict>
+</plist>
